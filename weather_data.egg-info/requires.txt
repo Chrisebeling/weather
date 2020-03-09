@@ -1,0 +1,7 @@
+pandas
+datetime
+numpy
+progressbar2
+configparser
+seaborn
+matplotlib

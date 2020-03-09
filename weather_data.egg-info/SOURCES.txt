@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+weather/__init__.py
+weather/functions/__init__.py
+weather/functions/access_data.py
+weather/functions/config.py
+weather/resources/cities_license.txt
+weather/resources/dataconfig.conf
+weather/resources/worldcities.csv
+weather_data.egg-info/PKG-INFO
+weather_data.egg-info/SOURCES.txt
+weather_data.egg-info/dependency_links.txt
+weather_data.egg-info/requires.txt
+weather_data.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+include weather/resources/dataconfig.conf
+include weather/resources/cities_license.txt
+include weather/resources/worldcities.csv

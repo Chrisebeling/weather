@@ -1,0 +1,67 @@
+Metadata-Version: 1.1
+Name: weather-data
+Version: 0.1.2
+Summary: Contains functions used to import and manipulate weather data.
+Home-page: UNKNOWN
+Author: Chris Ebeling
+Author-email: chris.ebeling.93@gmail.com
+License: MIT License
+
+Copyright (c) 2020 Christopher Ebeling
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+Description: # nba_stats
+        Contains functions used to import and manipulate a database of weather statistics.
+        
+        The weather data used is GHCN-daily.
+        
+        Note that the GHCN-Daily dataset itself now has a DOI (Digital Object Identifier)
+        so it may be relevant to cite both the methods/overview journal article as well 
+        as the specific version of the dataset used.
+        
+        The journal article describing GHCN-Daily is:
+        Menne, M.J., I. Durre, R.S. Vose, B.E. Gleason, and T.G. Houston, 2012:  An overview 
+        of the Global Historical Climatology Network-Daily Database.  Journal of Atmospheric 
+        and Oceanic Technology, 29, 897-910, doi:10.1175/JTECH-D-11-00103.1.
+        
+        To acknowledge the specific version of the dataset used, please cite:
+        Menne, M.J., I. Durre, B. Korzeniewski, S. McNeal, K. Thomas, X. Yin, S. Anthony, R. Ray, 
+        R.S. Vose, B.E.Gleason, and T.G. Houston, 2012: Global Historical Climatology Network - 
+        Daily (GHCN-Daily), Version 3. [indicate subset used following decimal, 
+        e.g. Version 3.12]. 
+        NOAA National Climatic Data Center. http://doi.org/10.7289/V5D21VHZ [access date].
+        
+        Download files in the following structure from https://www1.ncdc.noaa.gov/pub/data/ghcn/daily/
+         - all/
+         - ghcnd-countries.txt
+         - ghcnd-inventory.txt
+         - ghcnd-states.txt
+         - ghcnd-stations.txt
+         - ghcnd-version.txt
+         - ghcnd-stations.csv
+        
+        The path of the directory where the data was downloaded to must be set.
+        To do this use function set_path function. (To import use "from weather.functions.config import set_path").
+        This function requires only the desired path as input.
+        Only needs to be set once, will be maintained on new sessions.
+Platform: UNKNOWN
+Classifier: Developer Status::3 - Alpha
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: License :: OSI Approved :: MIT License
