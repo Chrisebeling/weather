@@ -1,4 +1,4 @@
-# nba_stats
+# Weather
 Contains functions used to import and manipulate a database of weather statistics.
 
 The weather data used is GHCN-daily.
